@@ -1,0 +1,131 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css';
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--WHITE, #fff);
+  color: #434455;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  color: var(--NAVY-BLUE, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-header span {
+  color: var(--IRIS, #2e2f42);
+}
+.logo-footer span {
+  color: var(--CLOUD, #f4f4fd);
+}
+
+.menu--link {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-weight: 500;
+}
+.menu--link:hover {
+  color: var(--OCEAN, #404bbf);
+}
+.menu--link:focus {
+  color: var(--OCEAN, #404bbf);
+}
+
+.address--link {
+  color: var(--SLATE, #434455);
+}
+.address--link:hover {
+  color: var(--OCEAN, #404bbf);
+}
+.address--link:focus {
+  color: var(--OCEAN, #404bbf);
+}
+
+.section_offer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.offer--ttl {
+  color: var(--WHITE, #fff);
+  text-align: center;
+
+  /* Header 1 */
+  font-size: 56px;
+  font-style: normal;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.btn {
+  color: var(--WHITE, #fff);
+
+  /* Button Text */
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background: var(--IRIS, #4d5ae5);
+}
+.btn:hover {
+  background-color: var(--OCEAN, #404bbf);
+}
+.btn:focus {
+  background-color: var(--OCEAN, #404bbf);
+}
+
+.section-title {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+
+  /* Header 2 */
+  text-transform: capitalize;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+}
+
+.section_team {
+  background: var(--CLOUD, #f4f4fd);
+}
+
+.team-card {
+  background-color: var(--WHITE, #fff);
+}
+
+.header-card {
+  color: var(--NAVY-BLUE, #2e2f42);
+
+  /* Header 3 */
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+.footer-text {
+  color: var(--CLOUD, #f4f4fd);
+}
