@@ -100,6 +100,7 @@ a {
   color: var(--NAVY-BLUE, #2e2f42);
   font-weight: 500;
   padding: 24px 0;
+  display: block;
 }
 .menu--link:hover {
   color: var(--OCEAN, #404bbf);
